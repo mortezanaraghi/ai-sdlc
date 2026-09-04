@@ -1,0 +1,27 @@
+.DS_Store
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+dist/
+.next/
+
+# IDE
+.vscode/
+.idea/
+
+# Local
+.tmp/
+*.log
+.aisdlc-data/
+*.egg-info/

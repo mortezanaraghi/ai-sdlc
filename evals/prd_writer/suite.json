@@ -1,0 +1,12 @@
+[
+  {
+    "name": "contains_problem_section",
+    "input": {"opportunity": "Mission Inspector tool"},
+    "expect": {"contains": ["Problem", "Users", "Success", "Scope"]}
+  },
+  {
+    "name": "non_empty_output",
+    "input": {"opportunity": "any feature"},
+    "expect": {"contains": ["#"]}
+  }
+]
